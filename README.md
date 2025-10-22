@@ -10,3 +10,6 @@ Run these commands
 ------------------
 "npm i"
 "npm run dev"
+
+Create a new PAT from hugging face and use it for the Hugging face API calls
+-----------------------------------------------------------------------------
