@@ -1,0 +1,68 @@
+* {
+    font-family: Arial;
+}
+
+
+.card-container {
+    display: flex;
+    flex-direction: column;
+    gap: 5rem;
+}
+
+.card-location-details {
+    height: 20rem;
+    width: 40rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+
+.counrty-name-link a:link,
+.counrty-name-link a:hover,
+.counrty-name-link a:visited,
+.counrty-name-link a:active {
+    color: #fefefe;
+
+}
+
+.counrty-name-link p {
+    margin-left: 0.5rem;
+    text-transform: uppercase;
+    letter-spacing: 1.1px;
+}
+
+.card-body {
+    display: flex;
+    gap: 2rem
+}
+
+
+.counrty-name-link {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+
+.counrty-name-link a {
+    margin-left: 2rem;
+}
+
+.counrty-name-link img {
+    height: 2rem;
+    width: 2rem;
+    object-fit: contain;
+    aspect-ratio: 1;
+}
+
+.location-img {
+    width: 15rem;
+    height: 20rem;
+}
+
+.location-img img {
+    border-radius: 8px;
+    height: 20rem;
+    aspect-ratio: 3/4;
+    width: auto;
+    object-fit: cover;
+}

@@ -1,0 +1,22 @@
+ul {
+    margin-left: 4rem;
+    margin-top: 4rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1.2rem;
+}
+
+ul li {
+    display: flex;
+    list-style: none;
+    gap: 1.2rem;
+    align-items: center;
+}
+
+
+.blue_dot {
+    height: 0.8rem;
+    width: 0.8rem;
+    border-radius: 50%;
+    background-color: #04AFDA;
+}

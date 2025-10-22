@@ -1,0 +1,152 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Inter
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    overflow-x: hidden;
+    width: 100vw;
+    font-size: 1.6rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.container {
+    margin: 0 auto;
+    width: 50vw;
+    padding: 3rem 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem;
+    background-color: #F9F9F7
+}
+
+header {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1.2rem;
+    background-color: #fff;
+}
+
+header img {
+    height: 8rem;
+    aspect-ratio: 1;
+    width: auto;
+    object-fit: contain;
+}
+
+main {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 3rem;
+}
+
+form {
+    width: 100%;
+    display: flex;
+    gap: 2rem;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.search input[type=text] {
+    width: 35vw;
+    height: 2.8rem;
+    outline: none;
+    font-size: 1.4rem;
+    border-radius: 5px;
+    padding-left: 0.5rem;
+}
+
+.search input[type=text]:focus {
+    outline: none;
+}
+
+.search button {
+    border: none;
+    background-color: #1a1a1a;
+    color: #fff;
+    padding: 1rem 1.2rem;
+    border-radius: 5px;
+    transition: all 0.3s ease;
+}
+
+.search button:hover {
+    cursor: pointer;
+    background-color: #313131;
+
+}
+
+.ingredients {
+    align-self: start;
+}
+
+.ingredients ul {
+    margin-top: 2rem;
+    padding-left: 2rem;
+
+}
+
+.recipe {
+    padding: 2rem;
+    background-color: #EEECE8;
+    align-self: start;
+    display: flex;
+    gap: 2rem;
+    border-radius: 5px;
+}
+
+.text p {
+    font-weight: 500;
+    font-size: 1.8rem;
+    color: #000;
+}
+
+.text span {
+    font-weight: 200;
+    font-size: 1.4rem;
+    color: #333;
+
+}
+
+.recipe button {
+    border-radius: 5px;
+    background-color: #CB6A4D;
+    color: #efefef;
+    padding: 0.2rem 0.8rem;
+    text-decoration: none;
+    border: none;
+    transition: all 0.3s ease;
+}
+
+.recipe button:hover {
+    background-color: hsl(14, 55%, 45%);
+    cursor: pointer;
+}
+
+.ai-markdown {
+    color: #43494f;
+    line-height: 2.8rem;
+    font-size: 1.125rem;
+    font-weight: 500;
+}
+
+footer {
+    margin-top: 1.5rem;
+    padding: 1.2rem;
+    color: #666;
+    text-align: center;
+    font-size: 1.2rem;
+}
